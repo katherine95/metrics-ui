@@ -53,9 +53,9 @@ const AddMetric = () => {
             onChange={({ target: { value }}) => setMetricName(value)}
           />
           <span style={{ visibility: `${metricName ? "hidden" : "visible"}`}}>*Required</span>
-          <label>Description</label>
+          <label>Value</label>
           <input
-            placeholder="Description"
+            placeholder="Value"
             onChange={({ target: { value }}) => setMetricValue(value)}
           />
           <span style={{ visibility: `${metricValue ? "hidden" : "visible"}`}}>*Required</span>

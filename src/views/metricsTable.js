@@ -13,7 +13,7 @@ const MetricsTable = ({ allMetrics }) => {
             <tr key={metric.id}>
               <td>{metric.name}</td>
               <td>{metric.value}</td>
-              <td>{metric.updated_at}</td>
+              <td>{metric.created_at}</td>
             </tr>
           )}
         </tbody>
